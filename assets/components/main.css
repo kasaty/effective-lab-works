@@ -1,0 +1,221 @@
+/* Main block one */
+.main {
+    position: relative;
+    padding-top: 80px;
+    padding: 80px 135px 0px 135px;
+    align-items: center;
+}
+
+.menu-burger-hr::after::before {
+    direction: inherit;
+    padding: 10px 0px 10px 0px;
+    direction: initial;
+}
+
+.main-img-rectangle {
+    position: absolute;
+    left: 1104.4px;
+    bottom: 480px;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+.main-img-dot {
+    position: absolute;
+    left: 1696.4px;
+    bottom: 930px;
+    z-index: -1;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.main ,
+.wrapper-main-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper-main-wrapper{
+    justify-content: flex-end;
+}
+
+.wrapper-additional ,
+.wrapper-main ,
+.wrapper-main-wrapper__block-two{
+    display: flex;
+}
+
+.wrapper-additional{
+    margin: 30px 0px 0px 30px;
+}
+
+.wrapper-main ,
+.wrapper-main-wrapper ,
+.wrapper-additional__block-two ,
+.wrapper-main__image ,
+.wrapper-additional__block-three{
+    margin-left:30px;
+}
+
+.wrapper-additional__block-two ,
+.main-products{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.main-products{
+    margin:64px 0px 110px 0px;
+}
+
+.wrapper-product-block{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 270px;
+    height: 464px;
+    background: #FDCB6E;
+    border-radius: 20px;
+    margin: 16px 0px 30px 0px;
+}
+
+.wrapper-main__product-one{
+    background: #00B894;
+    border-radius: 20px;
+    height: 380px;
+    width: 470px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-title__text ,
+.main-title__text-color{
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 104px;
+    color: black;
+}
+
+.main-title__text-color{
+    color: #ff69B4;
+    text-shadow: 0px 4px 0px #FFFFFF;
+    position: relative;
+}
+
+.main-title__text-color::after{
+    content:url("../img/backTitleColor.svg") ;
+    position: absolute;
+    width: 191px;
+    height: 51px;
+    top: 35px;
+    left:0px;
+    z-index: -1;
+}
+
+.main-title__text-s{
+    margin: 16px;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+.wrapper-product__text{
+    width: 270px;
+    height: 102px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.wrapper-product__text-n ,
+.wrapper-product__text-s ,
+.wrapper-main__text-n {
+    line-height: 32px;
+    color: #2D3436;
+}
+
+.wrapper-product__text-n{
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.wrapper-product__text-s{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.wrapper-product-block__button{
+    width: 270px;
+    height: 82px;
+    background: #FFFFFF;
+    border:0px;
+    box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #6C5CE7;
+}
+
+.wrapper-main__text-n{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.wrapper__text-b{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.wrapper-additional__block-three ,
+.wrapper-additional__image,
+.wrapper-main__block{
+    height: 222px;
+    width: 170px;
+    border-radius: 20px;
+}
+
+.wrapper-additional__block-three{
+    background: #FF7675;
+}
+
+.wrapper-main__block{
+    background: #A29BFE;
+}
+
+.wrapper-main-wrapper__block{
+    height: 78px;
+    width: 370px;
+}
+
+.wrapper-additional__block-one{
+    width: 270px;
+    height: 284px;
+    background: #E84393;
+    border-radius: 20px;
+}
+
+.wrapper-additional__block-two{
+    background: #6C5CE7;
+    border-radius: 20px;
+    width: 370px;
+    height: 356px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
