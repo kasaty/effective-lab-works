@@ -153,7 +153,7 @@
     }
 
     .wrapper-main-wrapper {
-        margin: 0 auto;
+        margin: 0px;
     }
 
     .wrapper-main__product-one {
@@ -191,7 +191,7 @@
     .wrapper-additional {
         margin:15px 0px 0px 0px;
     }
-/* About */ 
+/* About */
     .about-main__text {
         text-align: center;
         font-size: 18px;
@@ -214,7 +214,7 @@
         width: 100%;
         padding:50px 0px 0px 0px;
     }
-/*   Price   */
+/* Price */
     .price-card ,
     .footer {
         display: flex;
