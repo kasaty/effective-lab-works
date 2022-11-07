@@ -1,0 +1,70 @@
+/* Heder */
+.header {
+    height: 96px;
+    box-shadow:0px 2px 4px rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);    
+}
+
+.menu ,
+.menu-items {
+    height: 100%;
+}
+
+.menu-items ,
+.menu-items-logo-name , 
+.menu-main ,
+.menu-main__text {
+    display: flex;
+    align-items: center;
+}
+
+.menu-items {
+    justify-content: space-evenly;
+}
+
+.menu-items-logo-name__text { 
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.menu-main__text ,
+.menu-main__text__disable {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    color: #6C5CE7;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.menu-main__text__disable::before {
+    width: 120px;
+    content: "";
+}
+
+.menu-main__text::before {
+    width: 120px;
+    content: "•";
+    color:#FDCB6E;
+}
+
+.menu-main__text:hover ,
+.menu-main__text__disable:hover {
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.menu-items__button { 
+    width: 170px;
+    height: 64px;
+    border: 0px solid;
+    background: #2D3436;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
