@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 50px;
+    width: 900px;
+    background-color: white;
+}
+
+.container-button ,
+.container-button-time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.container-button__items ,
+.container-button__items-time {
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background:none;
+    color:#088;
+    max-width:120px;
+    min-width: 120px;
+    padding:10px 10px;
+    transition:all 0.3s;
+}
+
+.container-button__items:hover ,
+.container-button__items-time:hover {
+    box-shadow:0px -5px 0 #088 inset;
+}
+
+.container-input {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+input::-webkit-outer-spin-button ,
+input::-webkit-inner-spin-button {
+    display: none;
+    margin: 0;
+}
+
+.container-input__items {
+    font-family: "Open Sans";
+    font-size: 120px;
+    width: 200px;
+    height: auto;
+    padding: 0px;
+    border: none;
+}
+
+.container-input__items:focus {
+    outline: none;
+}
+
+.container-input__items-separation {
+    font-family: "Open Sans";
+    font-size: 120px;
+    padding-bottom: 20px;
+}
+
+.container-input__items:first-child {
+    text-align:right;
+}
+
+.container-input__items:last-child {
+    color: #088;
+}
+
+.text {
+    margin-top: 25px;
+    font-size: 82px;
+    color: white;
+    display: none;
+}

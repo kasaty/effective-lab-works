@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wraper">
+        <div class="container-button-time">
+            <button id="min-one" class="container-button__items-time">1 минута</button>
+            <button id="min-five" class="container-button__items-time">5 минут</button>
+            <button id="min-ten" class="container-button__items-time">10 минут</button>
+        </div>
+        <div class="container-input">
+            <input type="number" min="0" max="60" placeholder="00" id="input_min" class="container-input__items-min container-input__items" onkeydown="checkMaxKeyInput(event)">
+            <span class="container-input__items-separation">:</span>
+            <input type="number" min="0" max="60" placeholder="00" id="input_sec" class="container-input__items-sec container-input__items" onkeydown="checkMaxKeyInput(event)">
+        </div>
+        <div class="container-button">
+            <button id="start" class="container-button__items" onclick="startTimer()">Старт</button>
+            <button id="stop" class="container-button__items">Стоп </button>
+            <button id="reset" class="container-button__items">Ресет</button>
+        </div>
+    </div>
+    <span class="text">Внесите 500</span>
+    <script src="main.js"></script>
+</body>
+</html>

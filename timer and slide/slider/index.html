@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="component/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"> 
+        <div class="main">
+            <div class="sliders fade">
+                <div class="number-text">1/3</div>
+                <img class="sliders-img" src="component/style/img/mota.jpg" alt="">
+                <div class="text">effective</div>
+            </div>
+
+            <div class="sliders fade">
+                <div class="number-text">2/3</div>
+                <img class="sliders-img" src="component/style/img/highway.jpg" alt="">
+                <div class="text">effective )</div>
+            </div>
+            <div class="sliders fade">
+                <div class="number-text">3/3</div>
+                <img class="sliders-img" src="component/style/img/nature-river.jpg" alt="">
+                <div class="text">effective =)</div>
+            </div>
+            <a class="prev" onclick="plusSlider(-1)">&#10094</a>
+            <a class="next" onclick="plusSlider(1)">&#10095</a>
+        </div>
+
+        <div class="dot">
+            <span class="dot-icon" onclick="currentSlider(1)"></span>
+            <span class="dot-icon" onclick="currentSlider(2)"></span>
+            <span class="dot-icon" onclick="currentSlider(3)"></span>
+        </div>
+    </div>
+</body>
+<script src="component/main.js"></script>
+</html>
